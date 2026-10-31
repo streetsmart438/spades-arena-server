@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: spades-arena-server
+    env: node
+    plan: free
+    buildCommand: npm install --prefix server
+    startCommand: node server/server.mjs
+    healthCheckPath: /
