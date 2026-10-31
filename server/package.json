@@ -1,0 +1,1 @@
+{"dependencies":{"ws":"^8.18.0"},"description":"Live game server for Spades Arena (authoritative Dominoes 1v1 Draw).","name":"spades-arena-server","private":true,"scripts":{"start":"node server.mjs","test":"node --test server.test.mjs"},"type":"module","version":"1.0.0"}
